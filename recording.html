@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Запис на прийом - Друзі Тварин</title>
+</head>
+<body>
+
+    <!-- Меню-індикатор -->
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="index.html">1</a></li>
+                <li><a href="main_2.html">2</a></li>
+                <li><a href="recording.html">3</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Особистий кабінет</a></li>
+                <li><a href="#">Про нас</a></li>
+                <li><a href="#">Новини</a></li>
+                <li><a href="#">Контакти</a></li>
+                <li><a href="#">Блог</a></li>
+                <li><a href="#">Місто</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Запис на прийом до ветеринара</h1>
+
+        <!-- Посилання Назад на головну -->
+        <p><a href="index.html">&larr; Назад на головну</a></p>
+
+        <!-- Форма запису (Самостійне завдання №1) -->
+        <form action="#" method="post">
+            <div>
+                <label for="fullname">ПІБ власника:</label><br>
+                <input type="text" id="fullname" name="fullname" required placeholder="Іван Іванов">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="phone">Номер телефону:</label><br>
+                <input type="tel" id="phone" name="phone" required placeholder="+380XXXXXXXXX">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="pet-type">Вид тварини:</label><br>
+                <select id="pet-type" name="pet-type">
+                    <option value="dog">Собака</option>
+                    <option value="cat">Кіт / Кішка</option>
+                    <option value="rabbit">Кролик</option>
+                    <option value="bird">Птах</option>
+                    <option value="other">Інше</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="date">Дата візиту:</label><br>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="comment">Причина звернення / Скарги:</label><br>
+                <textarea id="comment" name="comment" rows="4" cols="40" placeholder="Опишіть симптоми або ціль візиту..."></textarea>
+            </div>
+
+            <br>
+
+            <button type="submit">Записатися</button>
+        </form>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="https://www.facebook.com"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDYI5Iquep92uL6WHGEgJGKS9UbC9tAoI8bsW1B_0ZwQ&s=10" alt="Facebook"width="20"></a></li>
+        <li><a href="https://www.instagram.com"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpMAvFlNozWYGaQpIe_kxVYY3B3FXFFy4QU5pv4nP2QQ&s" alt="Instagram"width="20"></a></li>
+        <li><a href="https://x.com"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6aFW1X_K1YdajvJwlg31d5Sq3hI7dtbvZq-RtvOT87w&s=10" alt="X"width="20"></a></li>
+        <li><a href="https://www.youtube.com"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT20c0xuqIZApunuKIYLzvjvD6Zf13HiV-JLSkErhccLg&s=10" alt="YouTube"width="20"></a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
